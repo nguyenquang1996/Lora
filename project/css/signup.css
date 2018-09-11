@@ -51,7 +51,7 @@ table {
 
 body {
     font-family: "Times New Roman", Times, serif;
-    background-image: url("../images/image.jpg");
+    background-image: url("../images/image1.jpg");
     background-repeat: no-repeat; 
     background-size: cover;
 }
@@ -228,9 +228,7 @@ body {
     margin-top: 35px;
     width: 400px;
     height: 490px;
-    background: -webkit-linear-gradient(45deg, rgba(83, 125, 210, 0.4), rgba(178, 30, 123, 0.4) 100%);
-    background: -webkit-gradient(linear, 45deg, from(rgba(29, 236, 197, 0.4)), to(rgba(96, 0, 136, 0.4)));
-    background: linear-gradient(to 45deg, rgba(29, 236, 197, 0.4), rgba(96, 0, 136, 0.4) 100%);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .content-right-form-header {
@@ -267,7 +265,7 @@ body {
     position: relative;
 }
 
-.input-username {
+#input-username {
     z-index: 0;
     font-size: 14px;
     color: white;
@@ -280,7 +278,7 @@ body {
     padding: 0 30px 0 25px;
 }
 
-.lbl-username {
+#lbl-username {
     color: white;
     z-index: -1;
     position: absolute;
@@ -289,13 +287,13 @@ body {
     transition: 0.2s all;
 }
 
-input:focus~.lbl-username {
+input:focus~#lbl-username {
     top: -30.5%;
     color: white;
     z-index: 1;
 }
 
-input:valid~.lbl-username {
+input:valid~#lbl-username {
     top: -30.5%;
     color: white;
     z-index: 0;
@@ -309,7 +307,7 @@ input:valid~.lbl-username {
     color: white;
 }
 
-.input-password {
+#input-password {
     z-index: 0;
     font-size: 14px;
     color: white;
@@ -322,7 +320,7 @@ input:valid~.lbl-username {
     padding: 0 30px 0 25px;
 }
 
-.lbl-password {
+#lbl-password {
     color: white;
     z-index: -1;
     position: absolute;
@@ -331,13 +329,13 @@ input:valid~.lbl-username {
     transition: 0.2s all;
 }
 
-input:focus~.lbl-password {
+input:focus~#lbl-password {
     top: -27.5%;
     color: white;
     z-index: 1;
 }
 
-input:valid~.lbl-password {
+input:valid~#lbl-password {
     top: -27.5%;
     color: white;
     z-index: 0;
@@ -351,7 +349,7 @@ input:valid~.lbl-password {
     position: relative;
 }
 
-.input-re-password {
+#input-re-password {
     z-index: 0;
     font-size: 14px;
     color: white;
@@ -364,7 +362,7 @@ input:valid~.lbl-password {
     padding: 0 30px 0 25px;
 }
 
-.lbl-re-password {
+#lbl-re-password {
     color: white;
     z-index: -1;
     position: absolute;
@@ -373,13 +371,13 @@ input:valid~.lbl-password {
     transition: 0.2s all;
 }
 
-input:focus~.lbl-re-password {
+input:focus~#lbl-re-password {
     top: -25.5%;
     color: white;
     z-index: 1;
 }
 
-input:valid~.lbl-re-password {
+input:valid~#lbl-re-password {
     top: -25.5%;
     color: white;
     z-index: 0;
@@ -393,7 +391,7 @@ input:valid~.lbl-re-password {
     position: relative;
 }
 
-.input-email {
+#input-email {
     z-index: 0;
     font-size: 14px;
     color: white;
@@ -406,22 +404,22 @@ input:valid~.lbl-re-password {
     padding: 0 30px 0 25px;
 }
 
-.lbl-email {
+#lbl-email {
     color: white;
     z-index: -1;
     position: absolute;
-    top: 15.5%;
+    top: 10.5%;
     margin-left: -230px;
     transition: 0.2s all;
 }
 
-input:focus~.lbl-email {
+input:focus~#lbl-email {
     top: -35.5%;
     color: white;
     z-index: 1;
 }
 
-input:valid~.lbl-email {
+input:valid~#lbl-email {
     top: -35.5%;
     color: white;
     z-index: 0;
@@ -444,65 +442,77 @@ input:valid~.lbl-email {
 .exception-text {
     margin-top: 5px;
     margin-left: 2px;
-    display: none;
 }
 
-.error-username {
+#error-username {
     margin-left: 22px;
     margin-top: -17px; 
     color: #BA5880;
+    display: none;
+    margin-top: 5px;
+    margin-left: 2px;
 }
 
-.error-username-picture:before {
+#error-username-picture:before {
     content: url(../images/close.png);
+    display: none;
 }
 
 .exception-password {
     margin-top: 5px;
     margin-left: 2px;
-    display: none;
 }
 
-.error-password {
+#error-password {
     margin-left: 22px;
     margin-top: -17px; 
     color: #BA5880;
+    margin-top: 5px;
+    margin-left: 2px;
+    display: none;
 }
 
-.error-password-picture:before {
+#error-password-picture:before {
     content: url(../images/close.png);
+    display: none;
 }
 
 .exception-re-password {
     margin-top: 5px;
     margin-left: 2px;
-    display: none;
 }
 
-.error-re-password {
+#error-re-password {
     margin-left: 22px;
     margin-top: -17px; 
     color: #BA5880;
+    display: none;
+    margin-top: 5px;
+    margin-left: 2px;
 }
 
-.error-re-password-picture:before {
+#error-re-password-picture:before {
     content: url(../images/close.png);
+    display: none;
 }
 
 .exception-email {
     margin-top: 5px;
-    margin-left: 2px;
-    display: none;
+    margin-left: 2px;   
 }
 
-.error-email {
+#error-email {
     margin-left: 22px;
     margin-top: -17px; 
     color: #BA5880;
+    display: none;
+    margin-top: 5px;
+    margin-left: 2px;   
 }
 
-.error-email-picture:before {
+#error-email-picture:before {
     content: url(../images/close.png);
+    display: none;
 }
 
 input[type=checkbox] {
@@ -521,7 +531,7 @@ input[type=checkbox]:after {
     top: 0;
     content: " ";
     background-color: #1ABC9C;
-    color: #fff;
+    color: white;
     display: inline-block;
     visibility: visible;
     padding: 0px 3px;
@@ -534,25 +544,12 @@ input[type=checkbox]:checked:after {
     text-align: center;
 }
 
-.submit {
-    border: none;
-    background: #1abc9c;
-    cursor: pointer;
-    border-radius: 3px;
-    padding: 6px;
-    width: 255px;
-    color: white;
-    margin-left: 0px;
-    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.5);
-    transition: all 0.3s ease-in-out;
-    margin-top: 30px;
+.button-submit-reset {
+    position: relative;
+    margin-top: 15px;
 }
 
-.submit:hover {
-    transform: translateY(-3px);
-}
-
-.reset {
+#submitt {
     border: none;
     background: #1abc9c;
     cursor: pointer;
@@ -564,8 +561,38 @@ input[type=checkbox]:checked:after {
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.5);
     transition: all 0.3s ease-in-out;
     margin-top: 10px;
+    position: absolute;
+}
+
+#submitt:hover {
+    transform: translateY(-3px);
+}
+
+.reset {
+    position: absolute;
+    border: none;
+    background: #1abc9c;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 6px;
+    width: 255px;
+    color: white;
+    margin-left: 0px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+    margin-top: 50px;
 }
 
 .reset:hover {
     transform: translateY(-3px);
+}
+
+.input-input {
+    height: 300px;
+}
+
+.button-checkbox {
+    height: 100px;
+    margin-left: 25px;
+    margin-top: -60px;
 }

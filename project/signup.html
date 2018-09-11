@@ -124,89 +124,103 @@
 						<!-- start form -->
 						<form>
 							
-							<!-- username -->
-							<div class="username">
+							<!-- input-input -->
+							<div class="input-input">
 								
-								<input type="text" class="input-username" required autocomplete="off">
-								<label class="lbl-username">Username *</label>
-
-								<!-- exception-text -->
-								<div class="exception-text">
+								<!-- username -->
+								<div class="username">
 									
-									<p class="error-username-picture"></p>
-									<p class="error-username">Please enter a username.</p>
+									<input type="text" id="input-username" required autocomplete="off">
+									<label id="lbl-username">Username *</label>
+
+									<!-- exception-text -->
+									<div class="exception-text">
+										
+										<p id="error-username-picture"></p>
+										<p id="error-username">Please enter a username.</p>
+
+									</div>
+									<!-- end exception-text -->
 
 								</div>
-								<!-- end exception-text -->
+								<!-- end username -->
 
-							</div>
-							<!-- end username -->
-
-							<!-- password -->
-							<div class="password">
-								
-								<input type="password" class="input-password" required autocomplete="off">
-								<label class="lbl-password">Password *</label>
-								<p id="hide-show-password" onclick="js_Click()"></p>
-
-								<!-- exception-password -->
-								<div class="exception-password">
+								<!-- password -->
+								<div class="password">
 									
-									<p class="error-password-picture"></p>
-									<p class="error-password">Please enter a password.</p>
+									<input type="password" id="input-password" required autocomplete="off">
+									<label id="lbl-password">Password *</label>
+									<p id="hide-show-password"></p>
+
+									<!-- exception-password -->
+									<div class="exception-password">
+										
+										<p id="error-password-picture"></p>
+										<p id="error-password">Please enter a password.</p>
+
+									</div>
+									<!-- end exception-password -->
 
 								</div>
-								<!-- end exception-password -->
+								<!-- end password -->
 
-							</div>
-							<!-- end password -->
-
-							<!-- re-password -->
-							<div class="re-password">
-								
-								<input type="password" class="input-re-password" required autocomplete="off">
-								<label class="lbl-re-password">Re-Password *</label>
-								<p id="hide-show-re-password"></p>
-
-								<!-- exception-re-password -->
-								<div class="exception-re-password">
+								<!-- re-password -->
+								<div class="re-password">
 									
-									<p class="error-re-password-picture"></p>
-									<p class="error-re-password">Please enter a re-password.</p>
+									<input type="password" id="input-re-password" required autocomplete="off">
+									<label id="lbl-re-password">Re-Password *</label>
+									<p id="hide-show-re-password"></p>
 
-								</div>
+									<!-- exception-re-password -->
+									<div class="exception-re-password">
+										
+										<p id="error-re-password-picture"></p>
+										<p id="error-re-password">Please enter a re-password.</p>
+
+									</div>
 								<!-- end exception-re-password -->
 
-							</div>
-							<!-- end re-password -->
+								</div>
+								<!-- end re-password -->
 
-							<!-- email -->
-							<div class="email">
-								
-								<input type="text" class="input-email" required autocomplete="off">
-								<label class="lbl-email">Email *</label>
-
-								<!-- exception-email -->
-								<div class="exception-email">
+								<!-- email -->
+								<div class="email">
 									
-									<p class="error-email-picture"></p>
-									<p class="error-email">Please enter a email.</p>
+									<input type="text" id="input-email" required autocomplete="off">
+									<label id="lbl-email">Email *</label>
+
+									<!-- exception-email -->
+									<div class="exception-email">
+										
+										<p id="error-email-picture"></p>
+										<p id="error-email">Please enter a email.</p>
+
+									</div>
+									<!-- end exception-email -->
 
 								</div>
-								<!-- end exception-email -->
 
-								<!-- check-box -->
-							<div class="check-box">
-
-								<input type="checkbox" id="mycheckbox">I agree with terms and conditions.
-									
 							</div>
-							<!-- end check-box -->
+							<!-- end input-input -->
 							
-							<divc class="button-submit-reset">
+							<div class="button-checkbox">
+								
+								<!-- check-box -->
+								<div class="check-box" style="color: white;">
 
-								<button class="submit">Submit</button>
-           						<button class="reset">Reset</button>
+									<input type="checkbox" id="mycheckbox">I AGREE with <span style="color: #1ABC9C">terms and conditions.</span>
+										
+								</div>
+								<!-- end check-box -->
+								
+								<!-- button-submit-reset -->
+								<div class="button-submit-reset">
+
+									<button id="submitt" disabled>Submit</button>
+	           						<button class="reset">Reset</button>
+
+								</div>
+								<!-- end button-submit-reset -->
 
 							</div>
 
