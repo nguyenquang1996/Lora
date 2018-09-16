@@ -30,7 +30,7 @@ var checkUserName = (function() {
 
 	function checkSpecialCharater() {
 		userName.style.borderBottomColor = "#E7AA49";
-		errorUserNamePicture.style.content = "url('images/pacman.png')";
+		errorUserNamePicture.style.content = "url('images/signup/pacman.png')";
 		errorUserNamePicture.style.display = "inline";
 		errorUserNameText.style.display = "inline";
 		errorUserNameText.textContent = "Please do not use special characters";
@@ -41,7 +41,7 @@ var checkUserName = (function() {
 
 	function checkEmpty() {
 		userName.style.borderBottomColor = "#D80022";
-		errorUserNamePicture.style.content = "url('images/close.png')";
+		errorUserNamePicture.style.content = "url('images/signup/close.png')";
 		errorUserNamePicture.style.display = "inline";
 		errorUserNameText.style.display = "inline";
 		errorUserNameText.textContent = "Please enter a username.";
@@ -52,7 +52,7 @@ var checkUserName = (function() {
 
 	function checkTextMiniSize() {
 		userName.style.borderBottomColor = "#0295AA";
-		errorUserNamePicture.style.content = "url('images/arrow.png')";
+		errorUserNamePicture.style.content = "url('images/signup/arrow.png')";
 		errorUserNamePicture.style.display = "inline";
 		errorUserNameText.style.display = "inline";
 		errorUserNameText.textContent = "Username must be 3-8 characters";
@@ -63,7 +63,7 @@ var checkUserName = (function() {
 
 	function checkTextMaxSize() {
 		userName.style.borderBottomColor = "#CCE4FF";
-		errorUserNamePicture.style.content = "url('images/width.png')";
+		errorUserNamePicture.style.content = "url('images/signup/width.png')";
 		errorUserNamePicture.style.display = "inline";
 		errorUserNameText.style.display = "inline";
 		errorUserNameText.textContent = "Username must be 3-8 characters";
@@ -74,7 +74,7 @@ var checkUserName = (function() {
 
 	function checkTextOk() {
 		userName.style.borderBottomColor = "#02F59A";
-		errorUserNamePicture.style.content = "url('images/tick.png')";
+		errorUserNamePicture.style.content = "url('images/signup/tick.png')";
 		errorUserNamePicture.style.display = "inline";
 		errorUserNameText.style.display = "inline";
 		errorUserNameText.textContent = "";
@@ -91,7 +91,7 @@ var checkUserName = (function() {
 
 function checkTextWarning() {
 	userName.style.borderBottomColor = "yellow";
-	errorUserNamePicture.style.content = "url('images/warning.png')";
+	errorUserNamePicture.style.content = "url('images/signup/warning.png')";
 	errorUserNamePicture.style.display = "inline";
 	errorUserNameText.style.display = "inline";
 	errorUserNameText.textContent = "warning";
@@ -200,7 +200,7 @@ var checkPassWord = (function() {
 
 	function checkPasswordNumberLetter() {
 		passWord.style.borderBottomColor = "#FC00FF";
-		errorPassWordPicture.style.content = "url('images/cubes.png')";
+		errorPassWordPicture.style.content = "url('images/signup/cubes.png')";
 		errorPassWordPicture.style.display = "inline";
 		errorPassWordText.style.display = "inline";
 		errorPassWordText.textContent = "Passwords must least one number";
@@ -211,7 +211,7 @@ var checkPassWord = (function() {
 
 	function checkPasswordUppercaseLetter() {
 		passWord.style.borderBottomColor = "#366DB6";
-		errorPassWordPicture.style.content = "url('images/uppercase.png')";
+		errorPassWordPicture.style.content = "url('images/signup/uppercase.png')";
 		errorPassWordPicture.style.display = "inline";
 		errorPassWordText.style.display = "inline";
 		errorPassWordText.textContent = "Passwords must least one capital letter";
@@ -222,7 +222,7 @@ var checkPassWord = (function() {
 
 	function checkPasswordLowercaseLetter() {
 		passWord.style.borderBottomColor = "white";
-		errorPassWordPicture.style.content = "url('images/lowercase.png')";
+		errorPassWordPicture.style.content = "url('images/signup/lowercase.png')";
 		errorPassWordPicture.style.display = "inline";
 		errorPassWordText.style.display = "inline";
 		errorPassWordText.textContent = "Passwords must least one regular letter";
@@ -233,7 +233,7 @@ var checkPassWord = (function() {
 
 	function checkSpecialCharater() {
 		passWord.style.borderBottomColor = "#E7AA49";
-		errorPassWordPicture.style.content = "url('images/pacman.png')";
+		errorPassWordPicture.style.content = "url('images/signup/pacman.png')";
 		errorPassWordPicture.style.display = "inline";
 		errorPassWordText.style.display = "inline";
 		errorPassWordText.textContent = "Please do not use special characters";
@@ -244,7 +244,7 @@ var checkPassWord = (function() {
 
 	function checkPassEmpty() {
 		passWord.style.borderBottomColor = "#D80022";
-		errorPassWordPicture.style.content = "url('images/close.png')";
+		errorPassWordPicture.style.content = "url('images/signup/close.png')";
 		errorPassWordPicture.style.display = "inline";
 		errorPassWordText.style.display = "inline";
 		errorPassWordText.textContent = "Please enter a password.";
@@ -254,7 +254,7 @@ var checkPassWord = (function() {
 	}
 	function checkPassMiniSize() {
 		passWord.style.borderBottomColor = "#0295AA";
-		errorPassWordPicture.style.content = "url('images/arrow.png')";
+		errorPassWordPicture.style.content = "url('images/signup/arrow.png')";
 		errorPassWordPicture.style.display = "inline";
 		errorPassWordText.style.display = "inline";
 		errorPassWordText.textContent = "Password must be 6-16 characters";
@@ -265,7 +265,7 @@ var checkPassWord = (function() {
 
 	function checkPassMaxSize() {
 		passWord.style.borderBottomColor = "#CCE4FF";
-		errorPassWordPicture.style.content = "url('images/width.png')";
+		errorPassWordPicture.style.content = "url('images/signup/width.png')";
 		errorPassWordPicture.style.display = "inline";
 		errorPassWordText.style.display = "inline";
 		errorPassWordText.textContent = "Password must be 6-16 characters";
@@ -276,7 +276,7 @@ var checkPassWord = (function() {
 
 	function checkPassOk() {
 		passWord.style.borderBottomColor = "#02F59A";
-		errorPassWordPicture.style.content = "url('images/tick.png')";
+		errorPassWordPicture.style.content = "url('images/signup/tick.png')";
 		errorPassWordPicture.style.display = "inline";
 		errorPassWordText.style.display = "inline";
 		errorPassWordText.textContent = "";
@@ -293,7 +293,7 @@ var checkPassWord = (function() {
 
 function checkPassWarning() {
 	passWord.style.borderBottomColor = "yellow";
-	errorPassWordPicture.style.content = "url('images/warning.png')";
+	errorPassWordPicture.style.content = "url('images/signup/warning.png')";
 	errorPassWordPicture.style.display = "inline";
 	errorPassWordText.style.display = "inline";
 	errorPassWordText.textContent = "warning";
@@ -361,10 +361,10 @@ var checkShowOrHidePassWord = (function() {
 	function checkShowHide() {
 		if(passWord.type == "password") {
 			passWord.type = "text";
-			checkHideShowPassword.style.content = "url('images/view.png')";
+			checkHideShowPassword.style.content = "url('images/signup/view.png')";
 		} else {
 			passWord.type = "password";
-			checkHideShowPassword.style.content = "url('images/hide.png')";
+			checkHideShowPassword.style.content = "url('images/signup/hide.png')";
 		}
 	}
 
@@ -400,7 +400,7 @@ var checkRePassWord = (function() {
 
 	function checkRePassEmpty() {
 		rePassWord.style.borderBottomColor = "#D80022";
-		reErrorPassWordPicture.style.content = "url('images/close.png')";
+		reErrorPassWordPicture.style.content = "url('images/signup/close.png')";
 		reErrorPassWordPicture.style.display = "inline";
 		reErrorPassWordText.style.display = "inline";
 		reErrorPassWordText.textContent = "Please enter a re - password.";
@@ -411,7 +411,7 @@ var checkRePassWord = (function() {
 
 	function checkRePasswordError() {
 		rePassWord.style.borderBottomColor = "#E7AA49";
-		reErrorPassWordPicture.style.content = "url('images/alarm.png')";
+		reErrorPassWordPicture.style.content = "url('images/signup/alarm.png')";
 		reErrorPassWordPicture.style.display = "inline";
 		reErrorPassWordText.style.display = "inline";
 		reErrorPassWordText.textContent = "Retype the password correctly";
@@ -428,7 +428,7 @@ var checkRePassWord = (function() {
 
 function checkRePassOk() {
 	rePassWord.style.borderBottomColor = "#02F59A";
-	reErrorPassWordPicture.style.content = "url('images/tick.png')";
+	reErrorPassWordPicture.style.content = "url('images/signup/tick.png')";
 	reErrorPassWordPicture.style.display = "inline";
 	reErrorPassWordText.style.display = "inline";
 	reErrorPassWordText.textContent = "";
@@ -439,7 +439,7 @@ function checkRePassOk() {
 
 function checkrePassWarning() {
 	rePassWord.style.borderBottomColor = "yellow";
-	reErrorPassWordPicture.style.content = "url('images/warning.png')";
+	reErrorPassWordPicture.style.content = "url('images/signup/warning.png')";
 	reErrorPassWordPicture.style.display = "inline";
 	reErrorPassWordText.style.display = "inline";
 	reErrorPassWordText.textContent = "warning";
@@ -507,10 +507,10 @@ var checkReShowOrHidePassWord = (function() {
 	function RecheckShowHide() {
 		if(rePassWord.type == "password") {
 			rePassWord.type = "text";
-			checkReHideShowPassword.style.content = "url('images/view.png')";
+			checkReHideShowPassword.style.content = "url('images/signup/view.png')";
 		} else {
 			rePassWord.type = "password";
-			checkReHideShowPassword.style.content = "url('images/hide.png')";
+			checkReHideShowPassword.style.content = "url('images/signup/hide.png')";
 		}
 	}
 
@@ -548,7 +548,7 @@ var checkEmail = (function() {
 
 	function checkEmailEmpty() {
 		email.style.borderBottomColor = "#D80022";
-		errorEmailPicture.style.content = "url('images/close.png')";
+		errorEmailPicture.style.content = "url('images/signup/close.png')";
 		errorEmailPicture.style.display = "inline";
 		errorEmailText.style.display = "inline";
 		errorEmailText.textContent = "Please enter a email.";
@@ -559,7 +559,7 @@ var checkEmail = (function() {
 	
 	function checkEmailError() {
 		email.style.borderBottomColor = "#00B7C3";
-		errorEmailPicture.style.content = "url('images/gmail.png')";
+		errorEmailPicture.style.content = "url('images/signup/gmail.png')";
 		errorEmailPicture.style.display = "inline";
 		errorEmailText.style.display = "inline";
 		errorEmailText.textContent = "The email must be formatted: abc@gmail.com .";
@@ -570,7 +570,7 @@ var checkEmail = (function() {
 
 	function checkEmailOk() {
 		email.style.borderBottomColor = "#02F59A";
-		errorEmailPicture.style.content = "url('images/tick.png')";
+		errorEmailPicture.style.content = "url('images/signup/tick.png')";
 		errorEmailPicture.style.display = "inline";
 		errorEmailText.style.display = "inline";
 		errorEmailText.textContent = "";
@@ -587,8 +587,8 @@ var checkEmail = (function() {
 
 function checkEmailWaring() {
 	email.style.borderBottomColor = "yellow";
-	errorEmailPicture.style.content = "url('images/tick.png')";
-	errorEmailPicture.style.content = "url('images/warning.png')";
+	errorEmailPicture.style.content = "url('images/signup/tick.png')";
+	errorEmailPicture.style.content = "url('images/signup/warning.png')";
 	errorEmailPicture.style.display = "inline";
 	errorEmailText.style.display = "inline";
 	errorEmailText.textContent = "warning";

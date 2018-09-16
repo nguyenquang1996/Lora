@@ -51,7 +51,7 @@ table {
 
 body {
     font-family: "Times New Roman", Times, serif;
-    background-image: url("../images/image1.jpg");
+    background-image: url("../images/signup/image1.jpg");
     background-repeat: no-repeat; 
     background-size: cover;
 }
@@ -97,7 +97,7 @@ body {
 }
 
 .header-left-div-p:before {
-    content: url(../images/header-left-before-left-p.png);
+    content: url(../images/signup/header-left-before-left-p.png);
     margin-right: 6px;
     vertical-align: baseline;
 }
@@ -118,7 +118,7 @@ body {
 }
 
 .header-right-div-a:before {
-    content: url("../images/header-right-before-left-a.png");
+    content: url("../images/signup/header-right-before-left-a.png");
     margin-right: 4px;
     vertical-align: middle;
 }
@@ -198,7 +198,7 @@ body {
 }
 
 .content-left-left p:before {
-    content: url("../images/mail.png");
+    content: url("../images/signup/mail.png");
     margin-right: 4px;
     vertical-align: middle;
 }
@@ -215,7 +215,7 @@ body {
 }
 
 .content-left-right p:before {
-    content: url("../images/phone.png");
+    content: url("../images/signup/phone.png");
     margin-right: 4px;
     vertical-align: baseline;
 }
@@ -247,7 +247,7 @@ body {
 }
 
 .content-right-form-header-p:before {
-    content: url("../images/user.png");
+    content: url("../images/signup/user.png");
     margin-right: 5px;
     vertical-align: baseline;
 }
@@ -274,7 +274,7 @@ body {
     border: 0;
     outline: 0;
     border-bottom: 2px solid white;
-    background: url("../images/username.png") no-repeat;
+    background: url("../images/signup/username.png") no-repeat;
     padding: 0 30px 0 25px;
 }
 
@@ -316,7 +316,7 @@ input:valid~#lbl-username {
     border: 0;
     outline: 0;
     border-bottom: 2px solid white;
-    background: url("../images/lock.png") no-repeat;
+    background: url("../images/signup/lock.png") no-repeat;
     padding: 0 30px 0 25px;
 }
 
@@ -358,7 +358,7 @@ input:valid~#lbl-password {
     border: 0;
     outline: 0;
     border-bottom: 2px solid white;
-    background: url("../images/lock.png") no-repeat;
+    background: url("../images/signup/lock.png") no-repeat;
     padding: 0 30px 0 25px;
 }
 
@@ -400,7 +400,7 @@ input:valid~#lbl-re-password {
     border: 0;
     outline: 0;
     border-bottom: 2px solid white;
-    background: url("../images/email.png") no-repeat;
+    background: url("../images/signup/email.png") no-repeat;
     padding: 0 30px 0 25px;
 }
 
@@ -426,7 +426,7 @@ input:valid~#lbl-email {
 }
 
 #hide-show-password {
-    content: url(../images/hide.png);
+    content: url(../images/signup/hide.png);
     position: absolute;
     left: 71.3%;
     top: 15%;
@@ -434,7 +434,7 @@ input:valid~#lbl-email {
 
 #hide-show-re-password {
     position: absolute;
-    content: url(../images/hide.png);
+    content: url(../images/signup/hide.png);
     left: 71.3%;
     top: 15%;
 }
@@ -454,7 +454,7 @@ input:valid~#lbl-email {
 }
 
 #error-username-picture:before {
-    content: url(../images/close.png);
+    content: url(../images/signup/close.png);
     display: none;
 }
 
@@ -473,7 +473,7 @@ input:valid~#lbl-email {
 }
 
 #error-password-picture:before {
-    content: url(../images/close.png);
+    content: url(../images/signup/close.png);
     display: none;
 }
 
@@ -492,7 +492,7 @@ input:valid~#lbl-email {
 }
 
 #error-re-password-picture:before {
-    content: url(../images/close.png);
+    content: url(../images/signup/close.png);
     display: none;
 }
 
@@ -511,7 +511,7 @@ input:valid~#lbl-email {
 }
 
 #error-email-picture:before {
-    content: url(../images/close.png);
+    content: url(../images/signup/close.png);
     display: none;
 }
 
