@@ -4,7 +4,7 @@ var errorUserNameText = document.getElementById("error-username");
 var lblUserName = document.getElementById("lbl-username");
 var checkInputTextBoxOk = 0;
 
-var regExpr = /[^a-zA-Z0-9-. ]/g;
+var regExpr = /[^a-zA-Z0-9]/g;
 
 var checkUserName = (function() {
 
